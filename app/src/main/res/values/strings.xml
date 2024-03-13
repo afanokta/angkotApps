@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">SI-RATU</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoiYWZhbm9rdGEiLCJhIjoiY2xtdmlveGxkMG45MjJrbzZiYmhvZnltaiJ9.z5WsVFAanmz1PjZK_qwFHw</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="error_login_custom_token">The custom token format is incorrect. Please check the documentation.</string>
+    <string name="error_login_default_error">Login Error</string>
+    <string name="error_login_credentials">Email atau Password Salah</string>
+    <string name="error_login_custom_token_mismatch">The custom token corresponds to a different audience.</string>
+    <string name="error_login_credential_malformed_or_expired">The supplied auth credential is malformed or has expired.</string>
+    <string name="error_login_invalid_email">The email address is badly formatted.</string>
+    <string name="error_login_wrong_password">The password is invalid or the user does not have a password.</string>
+    <string name="error_login_user_mismatch">The supplied credentials do not correspond to the previously signed in user.</string>
+    <string name="error_login_requires_recent_login">This operation is sensitive and requires recent authentication. Log in again before retrying this request.</string>
+    <string name="error_login_accounts_exits_with_different_credential">An account already exists with the same email address but different sign-in credentials. Sign in using a provider associated with this email address.</string>
+    <string name="error_login_email_already_in_use">The email address is already in use by another account.</string>
+    <string name="error_login_credential_already_in_use">This credential is already associated with a different user account.</string>
+    <string name="error_login_user_disabled">The user account has been disabled by an administrator.</string>
+    <string name="error_login_user_not_found">There is no user record corresponding to this identifier. The user may have been deleted.</string>
+    <string name="error_login_operation_not_allowed">This operation is not allowed. You must enable this service in the console.</string>
+    <string name="error_login_password_is_weak">The given password is invalid.</string>
+    <string name="error_login_user_token_expired">The user\'s credential is no longer valid. The user must sign in again</string>
+    <string name="error_login_invalid_user_token">The user\'s credential is no longer valid. The user must sign in again.</string>
+    <string name="title_activity_track">TrackActivity</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="callcenter_number">"+6282231156393"</string>
+    <string name="message_whatsapp">Halo, Saya mengirim pesan dari aplikasi SI-RATU</string>
+</resources>

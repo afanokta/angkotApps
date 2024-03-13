@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "524687908441",
+    "project_id": "tracking-apps-7d0e4",
+    "storage_bucket": "tracking-apps-7d0e4.appspot.com",
+    "firebase_url": "https://tracking-apps-7d0e4-default-rtdb.asia-southeast1.firebasedatabase.app/"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524687908441:android:7090652962c44ff0809b48",
+        "android_client_info": {
+          "package_name": "com.example.trackingapps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChJSKkAXxESUCOnnGHResO9sTZXx0v7Mc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

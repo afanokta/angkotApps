@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin.EditTrackFragment">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_kode_trayek"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Kode Trayek"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_title">
+
+        <EditText
+            android:id="@+id/et_kode_trayek"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_input_form"
+            android:ems="10"
+            android:inputType="textPersonName" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_jumlah_armada"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Jumlah Armada"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/til_kode_trayek"
+        app:layout_constraintStart_toStartOf="@+id/til_kode_trayek"
+        app:layout_constraintTop_toBottomOf="@+id/til_kode_trayek">
+
+        <EditText
+            android:id="@+id/et_jumlah_armada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_input_form"
+            android:ems="10"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_izin_armada"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:hint="Izin Armada"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        app:layout_constraintEnd_toEndOf="@+id/til_jumlah_armada"
+        app:layout_constraintStart_toStartOf="@+id/til_jumlah_armada"
+        app:layout_constraintTop_toBottomOf="@+id/til_jumlah_armada">
+
+        <EditText
+            android:id="@+id/et_izin_armada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_input_form"
+            android:ems="10"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_tarif_umum"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        android:hint="Tarif Umum"
+        app:layout_constraintEnd_toEndOf="@+id/til_izin_armada"
+        app:layout_constraintStart_toStartOf="@+id/til_izin_armada"
+        app:layout_constraintTop_toBottomOf="@+id/til_izin_armada">
+
+        <EditText
+            android:id="@+id/et_tarif_umum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_input_form"
+            android:ems="10"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_tarif_pelajar"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        android:hint="Tarif Pelajar"
+        app:layout_constraintEnd_toEndOf="@+id/til_tarif_umum"
+        app:layout_constraintStart_toStartOf="@+id/til_tarif_umum"
+        app:layout_constraintTop_toBottomOf="@+id/til_tarif_umum">
+
+        <EditText
+            android:id="@+id/et_tarif_pelajar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_input_form"
+            android:ems="10"
+            android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/til_trayek"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        app:boxStrokeWidth="0dp"
+        app:boxStrokeWidthFocused="0dp"
+        android:layout_marginTop="24dp"
+        android:hint="Trayek"
+        app:layout_constraintEnd_toEndOf="@+id/til_tarif_pelajar"
+        app:layout_constraintStart_toStartOf="@+id/til_tarif_pelajar"
+        app:layout_constraintTop_toBottomOf="@+id/til_tarif_pelajar">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_trayek"
+            android:layout_width="360dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/et_input_form"
+            app:layout_constraintEnd_toEndOf="@+id/til_tarif_pelajar"
+            app:layout_constraintStart_toStartOf="@+id/til_tarif_pelajar"
+            app:layout_constraintTop_toBottomOf="@+id/til_tarif_pelajar" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Edit Data Trayek"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/bt_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="SIMPAN"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/til_trayek" />
+</androidx.constraintlayout.widget.ConstraintLayout>
